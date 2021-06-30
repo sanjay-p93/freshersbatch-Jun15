@@ -1,0 +1,35 @@
+
+html, body {
+  height: 100%;
+}
+.margZero{
+margin:0px !important;
+}
+
+.padSpace16{
+padding:16px;
+}
+
+.padSpace8{
+padding:8px;
+}
+
+.formHead{
+color:white;
+text-align:center;
+background-color:#F1CD8E;
+}
+
+.formBody{
+background-color:#D6EAF8;
+padding-left: 50px;
+height: 100%;
+}
+
+.formText{
+	width: 20%; 
+	float:left;
+}
+.pageColor{
+	background-color:#F1CD8E;
+}
