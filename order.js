@@ -1,8 +1,8 @@
 
 	var itemList = [{id:1,name:"Cap",price:100,url:"cap.jpeg"},{id:2,name:"T-Shirt",price:300,url:"tshirt.jpeg"},{id:3,name:"Shoe",price:600,url:"shoe.jpeg"}];
 	var orderlist={};
-
-
+ //js edit for git
+var asdf=199;
 
 
 	for (let item of itemList){
