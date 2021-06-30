@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="myStyle.css">
+	</style>
+</head>
+<body class="margZero">
+	<div style="">
+		<h1 class="formHead margZero padSpace16"><span>Registration Form</span></h1>
+	</div>
+	<div class="padSpace16 formBody">
+	<form action="actionPage.html" target="_blank" method="get">
+		<div class="padSpace8"><label class="formText" for="fname">First name :</label><input type="text" id="fname" name="fname" maxlength ="25" placeholder="First name" required></div>
+		<div class="padSpace8"><label class="formText" for="fname">Last name :</label><input type="text" id="fname" name="lname" maxlength ="25" placeholder="First name" required></div>
+		<div class="padSpace8"><label class="formText" for="dob">Date of Brith :</label><input type="date" id="dob" name="dob" max="2020-12-31" min="1920-01-01" required></div>
+		<div class="padSpace8"><label class="formText" for="age">Age :</label><input type="number" id="age" name="age" min="1" max="100" step="1" required></div>
+		<div class="padSpace8"><label class="formText" for="dob">Gender :</label>  
+					<input type="radio" id="male" name="gender" value="male" required><label for="male">Male</label>
+  					<input type="radio" id="female" name="gender" value="female"><label for="female">Female</label>
+  					<input type="radio" id="other" name="gender" value="other"><label for="other">Other</label>
+		</div>
+		<div class="padSpace8"><label class="formText" for="cars">District:</label>
+  					<select id="districts"> name="districts">
+    					<option value="Alappuzha"> Alappuzha </option>
+    					<option value="Ernakulam"> Ernakulam </option>
+    					<option value="Idukki"> Idukki </option>
+    					<option value="Kannur"> Kannur </option>
+    					<option value="Kasaragod"> Kasaragod </option>
+    					<option value="Kollam"> Kollam </option>
+    					<option value="Kottayam"> Kottayam </option>
+    					<option value="Kozhikode"> Kozhikode </option>
+    					<option value="Malappuram"> Malappuram </option>
+    					<option value="Palakkad"> Palakkad </option>
+    					<option value="Pathanamthitta"> Pathanamthitta </option>
+    					<option value="Thiruvananthapuram"> Thiruvananthapuram </option>
+    					<option value="Thrissur"> Thrissur </option>
+    					<option value="Wayanad"> Wayanad </option>
+  					</select>
+		</div>
+		<div class="padSpace8"><input type="submit" value="Submit"></div>
+	</form>
+	</div>
+
+</body>
+</html>
